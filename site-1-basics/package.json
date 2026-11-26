@@ -1,0 +1,14 @@
+{
+  "name": "site-1-basics",
+  "private": true,
+  "scripts": {
+    "build": "bun build src/main.js src/tools.js --outdir js --target browser --minify",
+    "dev": "bun run build && bun scripts/serve.ts"
+  },
+  "dependencies": {
+    "lucide": "^1.81.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.5"
+  }
+}

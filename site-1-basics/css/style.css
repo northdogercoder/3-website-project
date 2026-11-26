@@ -82,3 +82,16 @@ footer {
 footer p {
   margin: 0;
 }
+
+.lucide {
+  width: 1em;
+  height: 1em;
+  stroke-width: 1.75;
+  vertical-align: -0.125em;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
