@@ -2,7 +2,7 @@
   "name": "site-1-basics",
   "private": true,
   "scripts": {
-    "build": "bun build src/main.js src/tools.js --outdir js --target browser --minify",
+    "build": "bun build src/main.js src/tools.js src/things.js --outdir js --target browser --minify",
     "dev": "bun run build && bun scripts/serve.ts"
   },
   "dependencies": {

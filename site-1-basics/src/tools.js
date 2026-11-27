@@ -1,3 +1,3 @@
-import { createIcons, FolderGit2, House, Gamepad } from "lucide";
+import { createIcons, FolderGit2, House, Gamepad, Shapes } from "lucide";
 
-createIcons({ icons: { FolderGit2, House, Gamepad } });
+createIcons({ icons: { FolderGit2, House, Gamepad, Shapes } });
